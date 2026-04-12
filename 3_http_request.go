@@ -15,7 +15,7 @@ type User struct {
 	Body   string `json:"body"`
 }
 
-func main() {
+func main3() {
 	client := &http.Client{
 		Timeout: time.Second * 30,
 	}
